@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-/* Function declarations */
 void deposit(float *balance);
 void withdraw(float *balance);
 void checkBalance(float balance);
@@ -8,11 +7,11 @@ void checkBalance(float balance);
 int main()
 {
     int choice;
-    float balance = 0.0;   // Initial balance
+    float balance = 0.0;  
 
-    printf("=====================================\n");
+    
     printf("     WELCOME TO SIMPLE BANKING SYSTEM\n");
-    printf("=====================================\n");
+   
 
     do
     {
@@ -51,7 +50,6 @@ int main()
     return 0;
 }
 
-/* Function to deposit money */
 void deposit(float *balance)
 {
     float amount;
@@ -69,7 +67,6 @@ void deposit(float *balance)
     }
 }
 
-/* Function to withdraw money */
 void withdraw(float *balance)
 {
     float amount;
@@ -87,7 +84,7 @@ void withdraw(float *balance)
     }
 }
 
-/* Function to check balance */
+
 void checkBalance(float balance)
 {
     printf("\nYour current balance is: ₹%.2f\n", balance);

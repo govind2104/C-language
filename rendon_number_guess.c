@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>   // For rand() and srand()
-#include <time.h>     // For time()
+#include <stdlib.h>   
+#include <time.h>     
 
 int main()
 {
@@ -36,9 +36,9 @@ int main()
         }
         else
         {
-            printf("🎉 Congratulations! You guessed the correct number.\n");
+            printf(" Congratulations! You guessed the correct number.\n");
             printf("Number of attempts: %d\n", attempts);
-            break;  // Exit loop when guessed correctly
+            break;  
         }
     }
 
